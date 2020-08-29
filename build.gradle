@@ -1,0 +1,15 @@
+plugins {
+    id 'distribution'
+}
+
+
+group 'riles'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+distributions {
+    main {
+        baseName = 'programs'
+    }
+}
